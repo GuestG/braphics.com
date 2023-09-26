@@ -14,16 +14,16 @@ $(document).ready(function() {
 //     return false;
 // });
 
-    $btns.click(function(e){
-        $('.projects-section .button-group button').removeClass('active');
-        e.target.classList.add('active');
+    // $btns.click(function(e){
+    //     $('.projects-section .button-group button').removeClass('active');
+    //     e.target.classList.add('active');
 
-        let selector = $(e.target).attr('data-filter');
-        $('.projects-section .grid').isotope({
-            filter : selector
-        });
-        return false;
-    })
+    //     let selector = $(e.target).attr('data-filter');
+    //     $('.projects-section .grid').isotope({
+    //         filter : selector
+    //     });
+    //     return false;
+    // })
 
     // $('projects-section .button-group #btn1').trigger('click');
 

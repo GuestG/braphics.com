@@ -2,17 +2,17 @@ $(document).ready(function() {
 
     let $btns = $('.projects-section .button-group button');
 
-//     // cache container
-// var $isocontainer = $('#isocontainer');
-
-// // initialize isotope
-// $isocontainer.isotope();
-
-// $('#filters a').click(function(){
-//     var selector = $(this).attr('data-filter');
-//     $isocontainer.isotope({ filter: selector });
-//     return false;
-// });
+    // cache container
+    var $isocontainer = $('#isocontainer');
+    
+    // initialize isotope
+    $isocontainer.isotope();
+    
+    $('#filters a').click(function(){
+        var selector = $(this).attr('data-filter');
+        $isocontainer.isotope({ filter: selector });
+        return false;
+    });
 
     // $btns.click(function(e){
     //     $('.projects-section .button-group button').removeClass('active');

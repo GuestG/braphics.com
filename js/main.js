@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
     let $btns = $('.projects-section .button-group button');
-
-    $('projects-section .button-group #btn1').trigger('click');
     
     $btns.click(function(e){
         $('.projects-section .button-group button').removeClass('active');
@@ -14,6 +12,8 @@ $(document).ready(function() {
         });
         return false;
     })
+
+    $('projects-section .button-group #btn1').trigger('click');
 
     $('.projects-section .grid .test-popup-link').magnificPopup({
         type: 'image',

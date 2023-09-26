@@ -3,10 +3,10 @@ $(document).ready(function() {
     let $btns = $('.projects-section .button-group button');
 
 //     // cache container
-var $isocontainer = $('#isocontainer');
+// var $isocontainer = $('#isocontainer');
 
 // // initialize isotope
-$isocontainer.isotope();
+// $isocontainer.isotope();
 
 // $('#filters a').click(function(){
 //     var selector = $(this).attr('data-filter');
@@ -25,7 +25,7 @@ $isocontainer.isotope();
         return false;
     })
 
-    $('projects-section .button-group #btn1').trigger('click');
+    // $('projects-section .button-group #btn1').trigger('click');
 
     $('.projects-section .grid .test-popup-link').magnificPopup({
         type: 'image',

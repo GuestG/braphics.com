@@ -2,16 +2,28 @@ $(document).ready(function() {
 
     let $btns = $('.projects-section .button-group button');
 
-    $btns.click(function(e){
-        $('.projects-section .button-group button').removeClass('active');
-        e.target.classList.add('active');
+    // cache container
+var $isocontainer = $('#isocontainer');
 
-        let selector = $(e.target).attr('data-filter');
-        $('.projects-section .grid').isotope({
-            filter : selector
-        });
-        return false;
-    })
+// initialize isotope
+$isocontainer.isotope();
+
+$('#filters a').click(function(){
+    var selector = $(this).attr('data-filter');
+    $isocontainer.isotope({ filter: selector });
+    return false;
+});
+
+    // $btns.click(function(e){
+    //     $('.projects-section .button-group button').removeClass('active');
+    //     e.target.classList.add('active');
+
+    //     let selector = $(e.target).attr('data-filter');
+    //     $('.projects-section .grid').isotope({
+    //         filter : selector
+    //     });
+    //     return false;
+    // })
 
     $('projects-section .button-group #btn1').trigger('click');
 

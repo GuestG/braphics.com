@@ -2,17 +2,17 @@ $(document).ready(function() {
 
     let $btns = $('.projects-section .button-group button');
 
-    // cache container
-    var $isocontainer = $('#isocontainer');
+    // // cache container
+    // var $isocontainer = $('#isocontainer');
     
-    // initialize isotope
-    $isocontainer.isotope();
+    // // initialize isotope
+    // $isocontainer.isotope();
     
-    $('#filters a').click(function(){
-        var selector = $(this).attr('data-filter');
-        $isocontainer.isotope({ filter: selector });
-        return false;
-    });
+    // $('#filters a').click(function(){
+    //     var selector = $(this).attr('data-filter');
+    //     $isocontainer.isotope({ filter: selector });
+    //     return false;
+    // });
 
     // $btns.click(function(e){
     //     $('.projects-section .button-group button').removeClass('active');
@@ -25,7 +25,7 @@ $(document).ready(function() {
     //     return false;
     // })
 
-    // $('projects-section .button-group #btn1').trigger('click');
+    $('projects-section .button-group #btn1').trigger('click');
 
     $('.projects-section .grid .test-popup-link').magnificPopup({
         type: 'image',

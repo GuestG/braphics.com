@@ -7,6 +7,10 @@
         padding-top: 32px;
     }
 
+    .navbar-brand img {
+        width: 30px;
+    }
+
     .w-75 {
         width: 90% !important;
         margin: 0 auto !important;

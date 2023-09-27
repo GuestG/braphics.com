@@ -73,6 +73,10 @@ body {
     background-clip: text; */
 }
 
+.navbar-brand img {
+    width: 50px;
+}
+
 /* =-----------Hero-----------------= */
 .site-main .site-banner {
     /* background: url(../assets/) no-repeat; */

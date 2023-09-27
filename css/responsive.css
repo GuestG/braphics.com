@@ -23,7 +23,7 @@
         margin: 0%;
     }
 
-    .site-main .site-banner .site-title h1{
+    .site-main .site-banner .site-title h1 {
         font-size: 48px;
     }
 
@@ -32,7 +32,7 @@
         margin: 0 auto;
     }
 
-    .site-main banner-image {
+    .site-main .site-banner .banner-image > img{
         display: none;
     }
 

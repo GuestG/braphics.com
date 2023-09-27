@@ -60,6 +60,10 @@
         padding-left: 1.5rem;
     }
 
+    .our-project .img a img {
+        max-width: 300px !important;
+    }
+
 }
 
 

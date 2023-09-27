@@ -133,8 +133,8 @@ body {
 #about-me-image {
 /*     border-radius: 38% 62% 39% 61% / 40% 39% 61% 60% ; */
     border-radius: 6px;
-    width: 100%;
-    height: auto;
+/*     width: 100%;
+    height: auto; */
 /*     min-height: 3rem; */
 }
 

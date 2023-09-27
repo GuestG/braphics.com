@@ -3,6 +3,10 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 424px){
+    body {
+        padding-top: 40px;
+    }
+
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
@@ -15,7 +19,7 @@
     }
 
     .site-main .site-banner .site-title h1{
-        font-size: 41px;
+        font-size: 48px;
     }
 
     .site-main .subscribe-us-area .subscribe form .input-textbox input{

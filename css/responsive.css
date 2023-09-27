@@ -27,6 +27,10 @@
         font-size: 48px;
     }
 
+    .site-main .about-section .about-title h2 > span {
+        width: 90%;
+    }
+
     .site-main banner-image {
         display: none;
     }
@@ -45,6 +49,10 @@
 
     #CTA-contact-me-btn {
         margin-bottom: 1rem;
+    }
+
+    #about-me-contact-btn {
+
     }
 
 }

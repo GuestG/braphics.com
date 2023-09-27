@@ -27,7 +27,7 @@
     }
 
     .site-main .about-section {
-        padding: 8rem 5rem;
+        padding: 8rem 16px;
     }
 
 }
@@ -82,7 +82,7 @@
     }
 
     .contact-section, .site-main .testimonials, .site-main .projects-section, .site-main .services-section, .site-main .about-section, .site-main .site-banner {
-        padding: 4rem 0.25rem;
+        padding: 4rem 0.5rem;
     }
 
 }
@@ -104,9 +104,9 @@
     .site-main .about-area{
         padding: 3% 4%;
     }
-    .site-main .about-section {
-        padding: 8rem 5rem;
-    }
+/*     .site-main .about-section {
+        padding: 8rem rem;
+    } */
 
 
 }

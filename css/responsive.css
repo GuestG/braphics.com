@@ -56,6 +56,10 @@
         width: 100%;
     }
 
+    .site-main .projects-section .button-group button + button {
+        padding-left: 1.5rem;
+    }
+
 }
 
 

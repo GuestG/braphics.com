@@ -29,6 +29,7 @@
 
     .site-main .about-section .about-title h2 > span {
         width: 90%;
+        margin: 0 auto;
     }
 
     .site-main banner-image {
@@ -52,7 +53,7 @@
     }
 
     #about-me-contact-btn {
-
+        width: 100%;
     }
 
 }

@@ -119,6 +119,8 @@ body {
 /* =-----------About-----------------= */
 .site-main .about-section {
     padding: 8rem 0rem;
+    max-width: 100rem;
+    margin: 0 auto;
 }
 
 .site-main .about-section .about-title h2 > span {

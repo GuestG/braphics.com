@@ -15,7 +15,7 @@ html, body {
 
 body {
     padding-top: 60px;
-    /* background-image: url(../assets/body-bg.png); */
+    background-image: url(../assets/body-bg.gif);
     background-repeat:no-repeat;
     /* background-position: right; */
     background-size: cover;

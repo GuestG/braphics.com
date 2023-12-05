@@ -19,6 +19,8 @@ body {
     background-repeat:no-repeat;
     /* background-position: right; */
     background-size: cover;
+    overflow:auto;
+    overflow:initial;
 }
 
 :root {
@@ -35,9 +37,36 @@ body {
     --roboto: "Roboto", cursive;
 }
 
+/* =-------------Parallax=--------------- */
 
+  #parallax-lvl-0, #parallax-lvl-1, #parallax-lvl-2, #parallax-lvl-3 {
+    position: absolute;
+    top: 0;
+  }
+  #parallax-lvl-1 {
+    z-index:0;
+  }
+  #parallax-lvl-2 {
+    z-index:1;
+  }
+  #parallax-lvl-3 {
+    z-index:3;
+  }
 
+  #Charizard {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    max-width: 80px;
+  }
 
+  #Other {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    max-width: 160px;
+    z-index: 0;
+  }
 
 /* =-----------Navbar-----------------= */
 
@@ -81,6 +110,8 @@ body {
 .site-main .site-banner {
     /* background: url(../assets/) no-repeat; */
     background-position: 0% 50%;
+    position: relative;
+    z-index: 2;
 }
 
 .site-main .site-banner .site-title h3 {
@@ -115,12 +146,27 @@ body {
     margin-right: 1rem;
 }
 
+/* =-----------youtube settings-----------------= */
+#youtubeVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%  
+}
+
 
 /* =-----------About-----------------= */
 .site-main .about-section {
     padding: 8rem 0rem;
     max-width: 100rem;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .site-main .about-section .about-title h2 > span {
@@ -149,6 +195,8 @@ body {
 /* =-----------Services-----------------= */
 .site-main .services-section {
     padding: 7rem 0rem;
+    position: relative;
+    z-index: 2;
 }
 
 .site-main .services-section .service-title {
@@ -175,6 +223,8 @@ body {
 /* =-----------Projects-----------------= */
 .site-main .projects-section {
     padding: 7rem 0rem;
+    position: relative;
+    z-index: 2;
 }
 
 .site-main .projects-section .button-group button {
@@ -210,10 +260,11 @@ body {
 }
 
 
-
 /* =-----------Testimonials-----------------= */
 .site-main .testimonials  {
     padding: 7rem 0rem;
+    position: relative;
+    z-index: 2;
 }
 
 .site-main .testimonials .client {
@@ -257,6 +308,8 @@ body {
 /* =-----------Contact Me-----------------= */
 .contact-section {
     padding: 7rem 0rem;
+    position: relative;
+    z-index: 2;
 }
 
 .contact-container {
@@ -309,6 +362,8 @@ form textarea {
     padding: 5rem 0;
     background: url('../assets/') no-repeat;
     background-color: rgba(248,249,250,1);
+    position: relative;
+    z-index: 20;
 }
 
 .footer-section .social h5 {

@@ -62,6 +62,7 @@
 
     .site-main .projects-section .button-group button + button {
         padding-left: 1.5rem;
+        font: normal 500 16px/40px var(--roboto);
     }
 
     .our-project .img a img {
@@ -73,6 +74,11 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 792px){
+
+    .parallax-container {
+        background-attachment: scroll;
+    }
+    
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
@@ -93,8 +99,18 @@
     }
 
     .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
+        font: normal 500 18px/80px var(--roboto);
     }
+
+    .button-group {
+        padding-bottom: 3.5rem !important;
+        /* height: 150px; */
+    }
+
+    .active {
+        font: normal 500 18px/80px var(--roboto) !important;
+    }
+
 
     .site-main .about-area .about-title p{
         padding: 0%;

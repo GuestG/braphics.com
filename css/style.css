@@ -172,6 +172,10 @@ body {
     color: var(--primary-color2) !important;
 }
 
+#social-bluesky {
+    color: #208BFE !important;
+}
+
 .social-hero *:hover{
     color: var(--hoverColor) !important;
 }
